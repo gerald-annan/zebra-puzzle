@@ -4,6 +4,7 @@ defmodule ZebraPuzzle do
   """
   @spec drinks_water() :: atom
   def drinks_water() do
+    :norwegian
   end
 
   @doc """
@@ -11,5 +12,6 @@ defmodule ZebraPuzzle do
   """
   @spec owns_zebra() :: atom
   def owns_zebra() do
+    :japanese
   end
 end
